@@ -3,4 +3,6 @@ jdk:
  - openjdk8
 notifications:
   email: caffo_aaron@hotmail.com
+before_install:
+ - chmod +x mvnw
 
