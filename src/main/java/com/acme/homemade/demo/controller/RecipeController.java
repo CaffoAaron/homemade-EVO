@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/api")
 public class RecipeController {
 
